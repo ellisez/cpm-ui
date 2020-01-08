@@ -6,7 +6,7 @@ export default {
   state: {
     query: {},
     list: [],
-    nextToken: null
+    nextToken: ''
   },
   getters: {
     query(state) {
